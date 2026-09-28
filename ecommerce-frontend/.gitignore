@@ -1,0 +1,102 @@
+# =========================
+# React / Node.js
+# =========================
+
+ecommerce-frontend/node_modules/
+ecommerce-frontend/dist/
+ecommerce-frontend/dist-ssr/
+
+# Environment files
+ecommerce-frontend/.env
+ecommerce-frontend/.env.local
+ecommerce-frontend/.env.*.local
+
+# NPM / Yarn / PNPM logs
+ecommerce-frontend/npm-debug.log*
+ecommerce-frontend/yarn-debug.log*
+ecommerce-frontend/yarn-error.log*
+ecommerce-frontend/pnpm-debug.log*
+ecommerce-frontend/lerna-debug.log*
+
+
+# =========================
+# Spring Boot / Maven
+# =========================
+
+ecommerce/target/
+
+# Maven wrapper generated files
+.mvn/timing.properties
+
+# Maven logs
+ecommerce/*.log
+
+
+# =========================
+# Logs
+# =========================
+
+logs/
+*.log
+
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# =========================
+# Java / Build Files
+# =========================
+
+*.class
+*.jar
+*.war
+*.ear
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

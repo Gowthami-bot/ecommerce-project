@@ -1,0 +1,35 @@
+# React / Node
+ecommerce-frontend/node_modules/
+ecommerce-frontend/dist/
+ecommerce-frontend/dist-ssr/
+
+# Spring Boot / Maven
+ecommerce/target/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Java compiled files
+*.class
